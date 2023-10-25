@@ -30,7 +30,7 @@ import (
 	"github.com/WitcHer-r/http/httptest"
 	"github.com/WitcHer-r/http/httptrace"
 	"github.com/WitcHer-r/http/httputil"
-	"github.com/WitcHer-r/http/internal/testcert"
+	"github.com/WitcHer-r/http/inter/testcert"
 	"net/textproto"
 	"net/url"
 	"os"

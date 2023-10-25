@@ -6,7 +6,7 @@
 
 // Package internal contains HTTP internals shared by github.com/WitcHer-r/http and
 // github.com/WitcHer-r/http/httputil.
-package internal
+package inter
 
 import (
 	"bufio"

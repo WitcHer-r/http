@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"github.com/WitcHer-r/http/internal/ascii"
+	"github.com/WitcHer-r/http/inter/ascii"
 	"net/url"
 	"reflect"
 	"sort"

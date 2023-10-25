@@ -12,7 +12,7 @@ import (
 	"log"
 	"net"
 	"github.com/WitcHer-r/http"
-	"github.com/WitcHer-r/http/internal/testcert"
+	"github.com/WitcHer-r/http/inter/testcert"
 	"os"
 	"strings"
 	"sync"

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net"
 	"github.com/WitcHer-r/http"
-	"github.com/WitcHer-r/http/internal/ascii"
+	"github.com/WitcHer-r/http/inter/ascii"
 	"net/url"
 	"sort"
 	"strings"

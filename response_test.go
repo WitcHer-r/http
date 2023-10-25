@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"go/token"
 	"io"
-	"github.com/WitcHer-r/http/internal"
+	"github.com/WitcHer-r/http/inter"
 	"net/url"
 	"reflect"
 	"regexp"

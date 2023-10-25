@@ -7,7 +7,7 @@ package http
 import (
 	"io"
 	"github.com/WitcHer-r/http/httptrace"
-	"github.com/WitcHer-r/http/internal/ascii"
+	"github.com/WitcHer-r/http/inter/ascii"
 	"net/textproto"
 	"sort"
 	"strings"

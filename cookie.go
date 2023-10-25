@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 	"net"
-	"github.com/WitcHer-r/http/internal/ascii"
+	"github.com/WitcHer-r/http/inter/ascii"
 	"net/textproto"
 	"strconv"
 	"strings"

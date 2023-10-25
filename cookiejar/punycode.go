@@ -8,7 +8,7 @@ package cookiejar
 
 import (
 	"fmt"
-	"github.com/WitcHer-r/http/internal/ascii"
+	"github.com/WitcHer-r/http/inter/ascii"
 	"strings"
 	"unicode/utf8"
 )

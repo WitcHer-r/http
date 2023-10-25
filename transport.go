@@ -21,7 +21,7 @@ import (
 	"log"
 	"net"
 	"github.com/WitcHer-r/http/httptrace"
-	"github.com/WitcHer-r/http/internal/ascii"
+	"github.com/WitcHer-r/http/inter/ascii"
 	"net/textproto"
 	"net/url"
 	"reflect"

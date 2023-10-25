@@ -8,7 +8,7 @@ package httputil
 
 import (
 	"io"
-	"github.com/WitcHer-r/http/internal"
+	"github.com/WitcHer-r/http/inter"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r
