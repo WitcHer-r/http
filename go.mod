@@ -3,7 +3,6 @@ module github.com/WitcHer-r/http
 go 1.20
 
 require (
-	github.com/WitcHer-r/gmsm v0.0.0-00010101000000-000000000000
 	golang.org/x/net v0.17.0
 )
 
