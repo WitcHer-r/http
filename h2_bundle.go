@@ -4003,7 +4003,7 @@ func http2ConfigureServer(s *Server, conf *http2Server) error {
 
 	if s.TLSConfig == nil {
 		s.TLSConfig = new(tls.Config)
-	} else if s.TLSConfig.CipherSuites != nil && s.TLSConfig.MinVersion < tls.VersionTLS13 {
+	} else if s.TLSConfig.CipherSuites != nil && s.TLSConfig.MinVersion < tls.VersionTLS12 {
 		// If they already provided a TLS 1.0–1.2 CipherSuite list, return an
 		// error if it is missing ECDHE_RSA_WITH_AES_128_GCM_SHA256 or
 		// ECDHE_ECDSA_WITH_AES_128_GCM_SHA256.

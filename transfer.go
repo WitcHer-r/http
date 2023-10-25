@@ -26,7 +26,7 @@ import (
 
 // ErrLineTooLong is returned when reading request or response bodies
 // with malformed chunked encoding.
-var ErrLineTooLong = internal.ErrLineTooLong
+var ErrLineTooLong = inter.ErrLineTooLong
 
 type errorReader struct {
 	err error
@@ -353,9 +353,9 @@ func (t *transferWriter) writeBody(w io.Writer) (err error) {
 		var body = t.unwrapBody()
 		if chunked(t.TransferEncoding) {
 			if bw, ok := w.(*bufio.Writer); ok && !t.IsResponse {
-				w = &internal.FlushAfterChunkWriter{Writer: bw}
+				w = &inter.FlushAfterChunkWriter{Writer: bw}
 			}
-			cw := internal.NewChunkedWriter(w)
+			cw := inter.NewChunkedWriter(w)
 			_, err = t.doBodyCopy(cw, body)
 			if err == nil {
 				err = cw.Close()
@@ -560,7 +560,7 @@ func readTransfer(msg any, r *bufio.Reader) (err error) {
 		if isResponse && (noResponseBodyExpected(t.RequestMethod) || !bodyAllowedForStatus(t.StatusCode)) {
 			t.Body = NoBody
 		} else {
-			t.Body = &body{src: internal.NewChunkedReader(r), hdr: msg, r: r, closing: t.Close}
+			t.Body = &body{src: inter.NewChunkedReader(r), hdr: msg, r: r, closing: t.Close}
 		}
 	case realLength == 0:
 		t.Body = NoBody
