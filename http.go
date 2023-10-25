@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:generate bundle -o=h2_bundle.go -prefix=http2 -tags=!nethttpomithttp2 golang.org/x/github.com/net/http2
+//go:generate bundle -o=h2_bundle.go -prefix=http2 -tags=!nethttpomithttp2 golang.org/x/net/http2
 
 package http
 
@@ -13,7 +13,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"golang.org/x/github.com/net/http/httpguts"
+	"golang.org/x/net/http/httpguts"
 )
 
 // incomparable is a zero-width, non-comparable type. Adding it to a struct

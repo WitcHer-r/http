@@ -31,7 +31,7 @@ import (
 
 	tls "github.com/WitcHer-r/gmsm/gmtls"
 
-	"golang.org/x/github.com/net/http/httpguts"
+	"golang.org/x/net/http/httpguts"
 )
 
 // Errors used by the HTTP server.
