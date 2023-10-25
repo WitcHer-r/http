@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 	"go/token"
-	"internal/nettrace"
+	"github.com/WitcHer-r/http/internal/nettrace"
 	"io"
 	"log"
 	mrand "math/rand"

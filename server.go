@@ -12,7 +12,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"internal/godebug"
+	"github.com/WitcHer-r/http/internal/godebug"
 	"io"
 	"log"
 	"math/rand"

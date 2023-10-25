@@ -9,7 +9,7 @@ package http
 import (
 	"errors"
 	"fmt"
-	"internal/safefilepath"
+	"github.com/WitcHer-r/http/internal/safefilepath"
 	"io"
 	"io/fs"
 	"mime"

@@ -8,7 +8,7 @@ package httptrace
 
 import (
 	"context"
-	"internal/nettrace"
+	"github.com/WitcHer-r/http/internal/nettrace"
 	"net"
 	"net/textproto"
 	"reflect"
