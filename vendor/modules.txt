@@ -17,8 +17,8 @@ golang.org/x/crypto/ripemd160
 golang.org/x/crypto/sha3
 # golang.org/x/net v0.17.0
 ## explicit; go 1.17
-golang.org/x/github.com/WitcHer-r/http/httpguts
-golang.org/x/github.com/WitcHer-r/http/httpproxy
+golang.org/x/github.com/net/http/httpguts
+golang.org/x/github.com/net/http/httpproxy
 golang.org/x/github.com/WitcHer-r/http2/hpack
 golang.org/x/net/idna
 # golang.org/x/sys v0.13.0

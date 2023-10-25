@@ -48,7 +48,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/github.com/WitcHer-r/http/httpguts"
+	"golang.org/x/github.com/net/http/httpguts"
 	"golang.org/x/github.com/WitcHer-r/http2/hpack"
 	"golang.org/x/net/idna"
 )

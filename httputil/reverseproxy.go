@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/github.com/WitcHer-r/http/httpguts"
+	"golang.org/x/github.com/net/http/httpguts"
 )
 
 // A ProxyRequest contains a request to be rewritten by a ReverseProxy.

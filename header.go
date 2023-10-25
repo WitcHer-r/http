@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/github.com/WitcHer-r/http/httpguts"
+	"golang.org/x/github.com/net/http/httpguts"
 )
 
 // A Header represents the key-value pairs in an HTTP header.

@@ -32,8 +32,8 @@ import (
 
 	tls "github.com/WitcHer-r/gmsm/gmtls"
 
-	"golang.org/x/github.com/WitcHer-r/http/httpguts"
-	"golang.org/x/github.com/WitcHer-r/http/httpproxy"
+	"golang.org/x/github.com/net/http/httpguts"
+	"golang.org/x/github.com/net/http/httpproxy"
 )
 
 // DefaultTransport is the default implementation of Transport and is

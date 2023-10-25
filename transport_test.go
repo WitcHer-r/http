@@ -44,7 +44,7 @@ import (
 	"testing/iotest"
 	"time"
 
-	"golang.org/x/github.com/WitcHer-r/http/httpguts"
+	"golang.org/x/github.com/net/http/httpguts"
 )
 
 // TODO: test 5 pipelined requests with responses: 1) OK, 2) OK, Connection: Close
